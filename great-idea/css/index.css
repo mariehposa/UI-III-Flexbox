@@ -64,3 +64,222 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.scaffold {
+	padding: 0 30px 0 75px;
+	display: flex;
+	flex-direction: column;
+	/* padding-bottom: 100px; */
+	width: 100%;
+}
+
+.top-nav {
+	margin-top: 55px;
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+nav a {
+	text-decoration: none;
+	color: gray;
+	/* width: 100px; */
+	/* border: 1px solid black; */
+	/* margin-left: 120px; */
+}
+
+
+
+.aHeader {
+	margin-top: 40px;
+}
+
+nav a:hover {
+	color: pink;
+}
+
+#getStarted {
+	margin: auto;
+	text-align: center;
+	border: 1px solid gray;
+	/* width: 100px; */
+
+	padding: 10px 40px;
+}
+
+.aHeader {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.aHeader .headerText{
+
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	text-align: center;
+	justify-content: center;
+	
+	/* font-size: 150px;
+	width: 600; */
+/* 
+	overflow: unset;
+	width: 500px;
+	display: inline-block; */
+	/* border: 1px solid black; */
+	/* margin-left: 200px; */
+	/* border: 1px solid black; */
+
+}
+
+header h1 {
+	/* font-size: 130px;
+	width: 500px;
+	text-align: center; */
+
+	font-size: 100px;
+
+	/* display: flex; */
+}
+
+.header-image {
+	/* display: inline-block;
+	margin-left: 200px; */
+	/* border: 1px solid black; */
+}
+
+.top-content {
+	border-top: 1px solid black;
+	display: flex;
+	/* justify-content: space-between; */
+}
+
+.top-content * {
+	/* display: inline-block; */
+	/* display: flex;
+	flex-direction: column; */
+	/* width: 600px; */
+
+	/* Would not give me any horizontal spacing otherwise???? */
+	width: 95%;
+
+	
+}
+
+
+.content *{
+	margin-top: 20px;
+}
+
+.bottom-content {
+	display: flex;
+	margin-bottom: 60px;
+}
+
+
+.bottom-section {
+	/* width: 400px; */
+	/* display: inline-block; */
+}
+
+footer {
+	text-align: center;
+	margin: 80px 0;
+}
+
+.bottom {
+	margin-top: 20px;
+	border-top: 1px solid black;
+}
+
+.bottom h5, address{
+	margin-top: 20px;
+}
+
+.middle-img, .services-header-img {
+	/* width: 1400px; */
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.heading {
+	font-size: 40px;
+}
+
+.explanation {
+	font-size: 20px;
+}
+
+.cards-section {
+	margin-top: 40px;
+	padding-top: 40px;
+	border-top: 1px solid #000;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.card {
+	width: 48%;
+	/* height: 400px; */
+	display: flex;
+	flex-direction: column;
+	background: gray;
+	border: 1px solid black;
+	margin-bottom: 50px;
+	padding: 20px;
+}
+
+.card > .button {
+	margin-top: 20px;
+	padding: 10px 25px;
+	border-radius: 5px;
+	width: 25%;
+	text-align: center;
+	background: white;
+	border: 1px solid black;
+}
+
+.card > p {
+	font-size: 20px;
+	/* letter-spacing: 2px; */
+	/* line-height: 2px; */
+}
+
+.nuggets-section {
+	display: flex;
+	justify-content: space-between;
+	justify-items: flex-end;
+	border-top: 3px solid black;
+	padding-top: 25px;
+	font-size: 23px;
+}
+
+.nuggets-section>div {
+	width: 48%;
+	/* border: #000 1px solid */
+}
+
+.nuggets-section>div>img {
+	width: 100%;
+}
+
+.nuggets-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+	
+}
+
+li {
+	margin: 10px 0;
+}
