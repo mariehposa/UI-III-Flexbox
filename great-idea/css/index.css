@@ -64,6 +64,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+<<<<<<< HEAD
+=======
+
+>>>>>>> 390a5aab5691c294fc16a82c192947ff9241d615
 .scaffold {
 	padding: 0 30px 0 75px;
 	display: flex;
@@ -282,4 +286,9 @@ ul {
 
 li {
 	margin: 10px 0;
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> 390a5aab5691c294fc16a82c192947ff9241d615
